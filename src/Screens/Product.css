@@ -1,0 +1,47 @@
+.MainDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ProductMainDesc {
+    margin: auto;
+    width: auto;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0px 1rem;
+}
+
+.PriceBtnDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Btn {
+    border-radius: 5px;
+    background-color: rgb(20, 119, 20);
+    color: white;
+    padding: 5px 15px;
+    border-width: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.ProductDeepInfo {
+    margin: auto;
+    width: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.seeMoreBtn {
+    color: red;
+    font-weight: 700;
+    cursor: pointer;
+}
